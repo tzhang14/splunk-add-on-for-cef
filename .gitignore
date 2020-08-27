@@ -45,9 +45,9 @@ tests/functional
 .DS_Store
 .env
 src
-
+*.lock
+*_event
+*_wait
 !deps/build
 !package/appserver/static/js/build
 *.log
-*.lock
-*_events
